@@ -12,5 +12,7 @@ namespace Pregunta1Api.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Pregunta1Api.Models.Osinaga> Osinagas { get; set; }
     }
 }
